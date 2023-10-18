@@ -28,7 +28,6 @@ class _EditScreenState extends State<EditScreen> {
       _titleController = TextEditingController(text: widget.note!.title);
       _contentController = TextEditingController(text: widget.note!.content);
     }
-
     super.initState();
   }
 
